@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: aqua;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +31,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin : 3rem;
+}
+
+nav ul li a {
+  display: block;
+  padding: 1rem;
+  text-decoration: underline;
+  color: black;
+}
+
+nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+main {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 3rem;
+  text-align: center;
 }
